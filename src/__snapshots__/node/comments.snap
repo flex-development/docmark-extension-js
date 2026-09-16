@@ -12,7 +12,16 @@ exports[`unit:comments > should be extension 1`] = `
       "previous": [Function previousHashbang],
       "tokenize": [Function tokenizeHashbang],
     },
-    "47": [],
+    "47": [
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeLineCommentContinuation],
+        },
+        "exit": [Function exitLineComment],
+        "name": "comment:js:line",
+        "tokenize": [Function tokenizeLineComment],
+      },
+    ],
   },
 }
 `;

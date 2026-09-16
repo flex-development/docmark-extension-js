@@ -16,7 +16,7 @@ import pathe from '@flex-development/pathe'
 import { readSync as read } from 'to-vfile'
 import { beforeAll, describe, expect, it } from 'vitest'
 
-describe.todo('e2e:comments', () => {
+describe('e2e:comments', () => {
   let directory: string
   let options: ParseOptions
 
@@ -26,7 +26,7 @@ describe.todo('e2e:comments', () => {
   })
 
   it.each<[path: string]>([
-    //
+    ['empty/01.txt']
   ])('should handle no comments (%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))
@@ -43,7 +43,7 @@ describe.todo('e2e:comments', () => {
   })
 
   it.each<[path: string]>([
-    //
+    ['source/01.txt']
   ])('should parse javascript comments (%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))

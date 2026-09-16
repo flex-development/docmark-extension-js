@@ -4,3 +4,4 @@
  */
 
 export { default, default as jsComments } from './comments.mts'
+export { default as jsLineComment } from './line.comment.mts'

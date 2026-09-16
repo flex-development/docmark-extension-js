@@ -4,5 +4,6 @@ exports[`e2e:docmark-extension-js > should expose public api 1`] = `
 [
   "default",
   "jsComments",
+  "jsLineComment",
 ]
 `;

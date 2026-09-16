@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:lineComment > should be named comment construct 1`] = `
+{
+  "continuation": {
+    "tokenize": [Function tokenizeLineCommentContinuation],
+  },
+  "exit": [Function exitLineComment],
+  "name": "comment:js:line",
+  "tokenize": [Function tokenizeLineComment],
+}
+`;

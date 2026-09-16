@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx-node
+#!/usr/bin/env node
 
   /**
    * Attempt to enter a source-level comment.\
@@ -19,14 +19,17 @@
   function tryComment(this: void, code: Code): State | undefined {
     restate() // reset container state to get ready for new comment.
 
-    // capture current number of events before attempting the comment.
-    // this is used to determine where to begin forwarding tokens after
-    // successfully entering the comment.
+    /*
+     * capture current number of events before attempting the comment.
+     * this is used to determine where to begin forwarding tokens after
+     * successfully entering the comment.
+     */
     continued = self.events.length
 
     // eat whitespace before attempting comment.
     if (whitespace(code)) return factorySpace(effects, tryComment)(code)
 
     // try entering a comment.
+    // consume `code` as opaque content if a comment cannot begin.
     return effects.attempt(sourceComment, takeComment, restart)(code)
   }

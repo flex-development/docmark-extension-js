@@ -6,6 +6,7 @@
 import { hashbang } from '@flex-development/docmark-extension-hashbang'
 import { codes } from '@flex-development/docmark-util-symbol'
 import type { NormalizedExtension } from '@flex-development/docmark-util-types'
+import blockComment from './block.comment.mts'
 import lineComment from './line.comment.mts'
 
 /**
@@ -18,7 +19,7 @@ import lineComment from './line.comment.mts'
 const comments: NormalizedExtension = {
   source: {
     [codes.numberSign]: hashbang,
-    [codes.slash]: [lineComment]
+    [codes.slash]: [blockComment, lineComment]
   }
 }
 

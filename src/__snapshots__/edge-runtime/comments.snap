@@ -15,6 +15,15 @@ exports[`unit:comments > should be extension 1`] = `
     "47": [
       {
         "continuation": {
+          "tokenize": [Function tokenizeBlockCommentContinuation],
+        },
+        "exit": [Function exitBlockComment],
+        "name": "comment:js:block",
+        "resolve": [Function resolveBlockComment],
+        "tokenize": [Function tokenizeBlockComment],
+      },
+      {
+        "continuation": {
           "tokenize": [Function tokenizeLineCommentContinuation],
         },
         "exit": [Function exitLineComment],

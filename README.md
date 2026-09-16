@@ -60,14 +60,14 @@ yarn add @flex-development/docmark-extension-js
 In Deno with [`esm.sh`][esmsh]:
 
 ```ts
-import { jsonComments } from 'https://esm.sh/@flex-development/docmark-extension-js'
+import { jsComments } from 'https://esm.sh/@flex-development/docmark-extension-js'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import { jsonComments } from 'https://esm.sh/@flex-development/docmark-extension-js'
+  import { jsComments } from 'https://esm.sh/@flex-development/docmark-extension-js'
 </script>
 ```
 
@@ -86,11 +86,11 @@ The default export is `jsComments`.
 
 **TODO**: `jsComments`
 
-### `jsBlockComment`
+### [`jsBlockComment`](./src/block.comment.mts)
 
 **TODO**: `jsBlockComment`
 
-### `jsLineComment`
+### [`jsLineComment`](./src/line.comment.mts)
 
 **TODO**: `jsLineComment`
 

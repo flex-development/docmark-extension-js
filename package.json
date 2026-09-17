@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/docmark-extension-js",
   "description": "docmark extension to support javascript comment syntax",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "keywords": [
     "comment",
     "docblock",

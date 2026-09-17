@@ -32,12 +32,15 @@ const comment: ContinuableConstruct & NamedConstruct = factoryBlockComment({
   },
   fields: { info: undefined, lang: lang.javascript },
   markers: {
-    closer: [codes.asterisk, codes.slash],
+    closer: [
+      { code: codes.asterisk, type: null },
+      { code: codes.slash, type: null }
+    ],
     line: codes.asterisk,
     opener: [
-      { code: codes.slash },
-      { code: codes.asterisk },
-      { code: codes.asterisk, optional: true }
+      { code: codes.slash, type: null },
+      { code: codes.asterisk, type: null },
+      { code: codes.asterisk, optional: true, type: null }
     ]
   }
 })

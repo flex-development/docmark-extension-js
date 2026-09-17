@@ -1,3 +1,19 @@
+## [1.0.0-alpha.2](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2026-09-17)
+
+### ⚠ BREAKING CHANGES
+
+- [`blockComment`] remove construct `name`
+- [`lineComment`] remove construct `name`
+
+### :robot: Continuous Integration
+
+- [[`e249b2a`](https://github.com/flex-development/docmark-extension-js/commit/e249b2af258c597cacfe7fbd9f21ab851f64b7ab)] **workflows:** [`ci`] continue on bun canary setup failure
+
+### :mechanical_arm: Refactors
+
+- [[`b107b52`](https://github.com/flex-development/docmark-extension-js/commit/b107b52a57e7bb10757537411a4c526047232f99)] [`blockComment`] remove construct `name`
+- [[`b50cf87`](https://github.com/flex-development/docmark-extension-js/commit/b50cf8713556275049086420b1233288ba5408bf)] [`lineComment`] remove construct `name`
+
 ## 1.0.0-alpha.1 (2026-09-17)
 
 ### :package: Build
@@ -17,5 +33,6 @@
 ### :house_with_garden: Housekeeping
 
 - [[`70e6f98`](https://github.com/flex-development/docmark-extension-js/commit/70e6f9885ebea1fa25b630e4c6ecb141b296d453)] initial commit
+
 
 

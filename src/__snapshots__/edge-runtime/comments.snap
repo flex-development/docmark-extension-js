@@ -18,7 +18,6 @@ exports[`unit:comments > should be extension 1`] = `
           "tokenize": [Function tokenizeBlockCommentContinuation],
         },
         "exit": [Function exitBlockComment],
-        "name": "comment:js:block",
         "resolve": [Function resolveBlockComment],
         "tokenize": [Function tokenizeBlockComment],
       },

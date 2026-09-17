@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:blockComment > should be comment construct 1`] = `
+{
+  "continuation": {
+    "tokenize": [Function tokenizeBlockCommentContinuation],
+  },
+  "exit": [Function exitBlockComment],
+  "resolve": [Function resolveBlockComment],
+  "tokenize": [Function tokenizeBlockComment],
+}
+`;

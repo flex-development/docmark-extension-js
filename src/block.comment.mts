@@ -13,8 +13,7 @@ import {
 } from '@flex-development/docmark-util-symbol'
 import type {
   ContinuableConstruct,
-  Event,
-  NamedConstruct
+  Event
 } from '@flex-development/docmark-util-types'
 import { ok } from 'devlop'
 
@@ -23,14 +22,18 @@ import { ok } from 'devlop'
  *
  * This construct is expected to run at the `source` content level.
  *
- * @const {ContinuableConstruct & NamedConstruct} comment
+ * @see {@linkcode ContinuableConstruct}
+ *
+ * @const {ContinuableConstruct} comment
  */
-const comment: ContinuableConstruct & NamedConstruct = factoryBlockComment({
+const comment: ContinuableConstruct = factoryBlockComment({
   construct: {
-    name: `${tt.comment}:${lang.javascript}:${kind.block}`,
     resolve: resolveBlockComment
   },
-  fields: { info: undefined, lang: lang.javascript },
+  fields: {
+    info: undefined,
+    lang: lang.javascript
+  },
   markers: {
     closer: [
       { code: codes.asterisk, type: null },

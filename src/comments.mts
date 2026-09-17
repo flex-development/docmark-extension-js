@@ -10,7 +10,7 @@ import blockComment from './block.comment.mts'
 import lineComment from './line.comment.mts'
 
 /**
- * The JavaScript comment syntax extension.
+ * The JavaScript comments syntax extension.
  *
  * @see {@linkcode NormalizedExtension}
  *

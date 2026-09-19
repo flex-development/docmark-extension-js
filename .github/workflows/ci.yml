@@ -352,8 +352,8 @@ jobs:
           ref: ${{ env.REF }}
       - id: bun
         name: Setup Bun (${{ matrix.bun-version }})
+        continue-on-error: ${{ matrix.bun-version == 'canary' }}
         uses: oven-sh/setup-bun@v2.2.0
-        continue-on-error: true
         with:
           bun-version: ${{ matrix.bun-version }}
       - id: restore-dep-cache

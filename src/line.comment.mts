@@ -4,7 +4,7 @@
  */
 
 import { factoryLineComment } from '@flex-development/docmark-factory-line'
-import { codes, lang } from '@flex-development/docmark-util-symbol'
+import { codes } from '@flex-development/docmark-util-symbol'
 import type { ContinuableConstruct } from '@flex-development/docmark-util-types'
 
 /**
@@ -17,7 +17,6 @@ import type { ContinuableConstruct } from '@flex-development/docmark-util-types'
  * @const {ContinuableConstruct} comment
  */
 const comment: ContinuableConstruct = factoryLineComment({
-  fields: { lang: lang.javascript },
   markers: [
     { code: codes.slash, fields: { _open: true } },
     { code: codes.slash, fields: { _close: true } }

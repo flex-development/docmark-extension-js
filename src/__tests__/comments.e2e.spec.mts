@@ -6,56 +6,48 @@
 import snapshot from '#tests/utils/snapshot-events'
 import { parse, postprocess, preprocess } from '@flex-development/docmark'
 import testSubject from '@flex-development/docmark-extension-js'
-import { tt } from '@flex-development/docmark-util-symbol'
+import { mode } from '@flex-development/docmark-util-symbol'
 import type {
   Chunk,
   FileLike,
-  ParseOptions
+  ParseOptions,
+  Settings,
+  TokenizeContext
 } from '@flex-development/docmark-util-types'
-import pathe from '@flex-development/pathe'
 import { readSync as read } from 'to-vfile'
 import { beforeAll, describe, expect, it } from 'vitest'
 
 describe('e2e:comments', () => {
-  let directory: string
-  let options: ParseOptions
+  let file: FileLike
+  let slice: Chunk[]
 
   beforeAll(() => {
-    directory = '__fixtures__'
-    options = { extensions: [testSubject] }
+    file = read('__fixtures__/comments.txt')
+    slice = preprocess()(file, undefined, true)
   })
 
-  it.each<[path: string]>([
-    ['empty/01.txt']
-  ])('should handle no comments (%j)', path => {
+  it('should parse javascript comments', () => {
     // Arrange
-    const file: FileLike = read(pathe.join(directory, path))
-    const slice: Chunk[] = preprocess()(file, undefined, true)
+    const options: ParseOptions = { extensions: [testSubject] }
+    const context: TokenizeContext = parse(options).source()
 
     // Act
-    const result = postprocess(parse(options).source().write(slice))
+    const result = postprocess(context.write(slice))
 
     // Expect
-    expect(result).to.have.property('length', 2)
-    expect(result).to.each.have.nested.property('1.type', tt.eoc)
-    expect(result).to.each.have.nested.property('1.start')
-    expect(result).to.each.have.nested.property('1.end')
+    expect(snapshot(result)).toMatchSnapshot()
   })
 
-  it.each<[path: string]>([
-    ['source/01.txt']
-  ])('should parse javascript comments (%j)', path => {
+  it('should respect `parser.constructs.settings.modes.block`', () => {
     // Arrange
-    const file: FileLike = read(pathe.join(directory, path))
-    const slice: Chunk[] = preprocess()(file, undefined, true)
+    const settings: Settings = { modes: { block: mode.documentation } }
+    const options: ParseOptions = { extensions: [testSubject, { settings }] }
+    const context: TokenizeContext = parse(options).source()
 
     // Act
-    const result = postprocess(parse(options).source().write(slice))
+    const result = postprocess(context.write(slice))
 
     // Expect
-    expect(result).to.have.property('length').be.at.least(2)
-    expect(result).to.each.have.nested.property('1.start')
-    expect(result).to.each.have.nested.property('1.end')
     expect(snapshot(result)).toMatchSnapshot()
   })
 })

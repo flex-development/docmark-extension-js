@@ -1,3 +1,14 @@
+## [1.0.0-alpha.4](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2026-09-21)
+
+### :package: Build
+
+- [[`7499712`](https://github.com/flex-development/docmark-extension-js/commit/7499712fde42b5f67d65d3789e1e08e1285ebef6)] **deps:** bump the docmark group with 5 updates
+
+### :robot: Continuous Integration
+
+- [[`e508005`](https://github.com/flex-development/docmark-extension-js/commit/e508005ff3c8f7e5b668f74ed422a46f9a001823)] **workflows:** [`ci`] continue on bun canary setup failure
+- [[`3b0dfef`](https://github.com/flex-development/docmark-extension-js/commit/3b0dfef24f3f3dce02e2c08a190282f1a0e389ab)] **workflows:** use `client-id` to create bot token
+
 ## [1.0.0-alpha.3](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2026-09-17)
 
 ### :package: Build
@@ -40,6 +51,7 @@
 ### :house_with_garden: Housekeeping
 
 - [[`70e6f98`](https://github.com/flex-development/docmark-extension-js/commit/70e6f9885ebea1fa25b630e4c6ecb141b296d453)] initial commit
+
 
 
 

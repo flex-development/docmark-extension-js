@@ -196,6 +196,7 @@ repository:
     - docblock
     - docmark
     - documentation
+    - hashbang
     - javascript
     - js
     - slash-comment

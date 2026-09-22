@@ -40,7 +40,8 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "#!",
     },
   ],
   [
@@ -144,7 +145,8 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "#!",
     },
   ],
   [
@@ -7759,7 +7761,8 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "#!",
     },
   ],
   [
@@ -7863,7 +7866,8 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "#!",
     },
   ],
   [

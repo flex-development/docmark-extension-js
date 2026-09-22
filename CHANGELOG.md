@@ -1,3 +1,15 @@
+## [1.0.0-alpha.5](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2026-09-22)
+
+### :package: Build
+
+- [[`3bee42c`](https://github.com/flex-development/docmark-extension-js/commit/3bee42cfc8ba63f934c33dd4b68b1a024227816c)] **deps-dev:** Bump cspell from 10.3.2 to 10.3.3 ([#14](https://github.com/flex-development/docmark-extension-js/issues/14))
+- [[`3c05ddf`](https://github.com/flex-development/docmark-extension-js/commit/3c05ddf3b4ec5105a8b225e7c4eede29aa88dc8a)] **deps-dev:** Bump rollup from 4.63.3 to 4.63.4 ([#16](https://github.com/flex-development/docmark-extension-js/issues/16))
+- [[`a3e1552`](https://github.com/flex-development/docmark-extension-js/commit/a3e1552042a5cb9c4e6ed97c3c33a8c5bea2ef95)] **deps:** bump the docmark group with 1 update
+
+### :robot: Continuous Integration
+
+- [[`dd46558`](https://github.com/flex-development/docmark-extension-js/commit/dd465589166683aa3b6ab36548491187a3a81211)] **deps:** Bump codecov/codecov-action from 7.1.0 to 7.1.1 ([#15](https://github.com/flex-development/docmark-extension-js/issues/15))
+
 ## [1.0.0-alpha.4](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2026-09-21)
 
 ### :package: Build
@@ -51,6 +63,7 @@
 ### :house_with_garden: Housekeeping
 
 - [[`70e6f98`](https://github.com/flex-development/docmark-extension-js/commit/70e6f9885ebea1fa25b630e4c6ecb141b296d453)] initial commit
+
 
 
 

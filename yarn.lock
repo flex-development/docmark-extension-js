@@ -1707,7 +1707,7 @@ __metadata:
     "@flex-development/docmark": "npm:1.0.0-alpha.15"
     "@flex-development/docmark-extension-hashbang": "npm:1.0.0-alpha.9"
     "@flex-development/docmark-factory-block": "npm:1.0.0-alpha.8"
-    "@flex-development/docmark-factory-line": "npm:1.0.0-alpha.9"
+    "@flex-development/docmark-factory-line": "npm:1.0.0-alpha.10"
     "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.9"
     "@flex-development/docmark-util-types": "npm:1.0.0-alpha.15"
     "@flex-development/eslint-config": "npm:1.1.1"
@@ -1774,9 +1774,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-factory-line@npm:1.0.0-alpha.9":
-  version: 1.0.0-alpha.9
-  resolution: "@flex-development/docmark-factory-line@npm:1.0.0-alpha.9"
+"@flex-development/docmark-factory-line@npm:1.0.0-alpha.10":
+  version: 1.0.0-alpha.10
+  resolution: "@flex-development/docmark-factory-line@npm:1.0.0-alpha.10"
   dependencies:
     "@flex-development/docmark-factory-markers": "npm:1.0.0-alpha.15"
     "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.15"
@@ -1785,7 +1785,7 @@ __metadata:
     "@flex-development/docmark-util-types": "npm:1.0.0-alpha.15"
     "@flex-development/mark-util-character": "npm:1.1.0"
     devlop: "npm:1.1.0"
-  checksum: 10/f663baefdabb2209a02d8c4985604cf0c10b37f10523bd373d595a9eb60ca4af42b6ff370421d0b9cdd8715f110914d290c71f0c90dcbd99c20694751f5a099c
+  checksum: 10/84e09096a445b681ab2bd107750932e61739281aab7e5685da49f68d4b2eb97b432df7f61e7a62cb037ea161c91a1af80482dca1cb70ec657e918b45adb4d80e
   languageName: node
   linkType: hard
 

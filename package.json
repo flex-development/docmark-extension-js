@@ -103,7 +103,7 @@
   "dependencies": {
     "@flex-development/docmark-extension-hashbang": "1.0.0-alpha.9",
     "@flex-development/docmark-factory-block": "1.0.0-alpha.8",
-    "@flex-development/docmark-factory-line": "1.0.0-alpha.9",
+    "@flex-development/docmark-factory-line": "1.0.0-alpha.10",
     "@flex-development/docmark-util-symbol": "1.0.0-alpha.9",
     "@flex-development/docmark-util-types": "1.0.0-alpha.15",
     "devlop": "1.1.0"

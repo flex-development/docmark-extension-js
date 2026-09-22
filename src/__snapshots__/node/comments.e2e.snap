@@ -4631,11 +4631,11 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
     "enter",
     {
       "end": {
-        "_bufferIndex": 17,
+        "_bufferIndex": 16,
         "_index": 37,
-        "column": 18,
+        "column": 17,
         "line": 20,
-        "offset": 568,
+        "offset": 567,
       },
       "start": {
         "_bufferIndex": 14,
@@ -4644,7 +4644,8 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
         "line": 20,
         "offset": 565,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -4736,6 +4737,27 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 16,
+        "_index": 37,
+        "column": 17,
+        "line": 20,
+        "offset": 567,
+      },
+      "start": {
+        "_bufferIndex": 14,
+        "_index": 37,
+        "column": 15,
+        "line": 20,
+        "offset": 565,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -4775,26 +4797,6 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 17,
-        "_index": 37,
-        "column": 18,
-        "line": 20,
-        "offset": 568,
-      },
-      "start": {
-        "_bufferIndex": 14,
-        "_index": 37,
-        "column": 15,
-        "line": 20,
-        "offset": 565,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [
@@ -6265,11 +6267,11 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
     "enter",
     {
       "end": {
-        "_bufferIndex": 7,
+        "_bufferIndex": 6,
         "_index": 53,
-        "column": 8,
+        "column": 7,
         "line": 29,
-        "offset": 864,
+        "offset": 863,
       },
       "start": {
         "_bufferIndex": 4,
@@ -6278,7 +6280,8 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
         "line": 29,
         "offset": 861,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -6370,6 +6373,27 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 53,
+        "column": 7,
+        "line": 29,
+        "offset": 863,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 53,
+        "column": 5,
+        "line": 29,
+        "offset": 861,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -6409,26 +6433,6 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 7,
-        "_index": 53,
-        "column": 8,
-        "line": 29,
-        "offset": 864,
-      },
-      "start": {
-        "_bufferIndex": 4,
-        "_index": 53,
-        "column": 5,
-        "line": 29,
-        "offset": 861,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [
@@ -6727,11 +6731,11 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
     "enter",
     {
       "end": {
-        "_bufferIndex": 7,
+        "_bufferIndex": 6,
         "_index": 58,
-        "column": 8,
+        "column": 7,
         "line": 32,
-        "offset": 987,
+        "offset": 986,
       },
       "start": {
         "_bufferIndex": 4,
@@ -6740,7 +6744,8 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
         "line": 32,
         "offset": 984,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -6832,6 +6837,27 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 58,
+        "column": 7,
+        "line": 32,
+        "offset": 986,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 58,
+        "column": 5,
+        "line": 32,
+        "offset": 984,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -6871,26 +6897,6 @@ exports[`e2e:comments > should parse javascript comments 1`] = `
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 7,
-        "_index": 58,
-        "column": 8,
-        "line": 32,
-        "offset": 987,
-      },
-      "start": {
-        "_bufferIndex": 4,
-        "_index": 58,
-        "column": 5,
-        "line": 32,
-        "offset": 984,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [
@@ -12344,11 +12350,11 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
     "enter",
     {
       "end": {
-        "_bufferIndex": 17,
+        "_bufferIndex": 16,
         "_index": 37,
-        "column": 18,
+        "column": 17,
         "line": 20,
-        "offset": 568,
+        "offset": 567,
       },
       "start": {
         "_bufferIndex": 14,
@@ -12357,7 +12363,8 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
         "line": 20,
         "offset": 565,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -12449,6 +12456,27 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 16,
+        "_index": 37,
+        "column": 17,
+        "line": 20,
+        "offset": 567,
+      },
+      "start": {
+        "_bufferIndex": 14,
+        "_index": 37,
+        "column": 15,
+        "line": 20,
+        "offset": 565,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -12488,26 +12516,6 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 17,
-        "_index": 37,
-        "column": 18,
-        "line": 20,
-        "offset": 568,
-      },
-      "start": {
-        "_bufferIndex": 14,
-        "_index": 37,
-        "column": 15,
-        "line": 20,
-        "offset": 565,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [
@@ -13978,11 +13986,11 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
     "enter",
     {
       "end": {
-        "_bufferIndex": 7,
+        "_bufferIndex": 6,
         "_index": 53,
-        "column": 8,
+        "column": 7,
         "line": 29,
-        "offset": 864,
+        "offset": 863,
       },
       "start": {
         "_bufferIndex": 4,
@@ -13991,7 +13999,8 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
         "line": 29,
         "offset": 861,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -14083,6 +14092,27 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 53,
+        "column": 7,
+        "line": 29,
+        "offset": 863,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 53,
+        "column": 5,
+        "line": 29,
+        "offset": 861,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -14122,26 +14152,6 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 7,
-        "_index": 53,
-        "column": 8,
-        "line": 29,
-        "offset": 864,
-      },
-      "start": {
-        "_bufferIndex": 4,
-        "_index": 53,
-        "column": 5,
-        "line": 29,
-        "offset": 861,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [
@@ -14440,11 +14450,11 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
     "enter",
     {
       "end": {
-        "_bufferIndex": 7,
+        "_bufferIndex": 6,
         "_index": 58,
-        "column": 8,
+        "column": 7,
         "line": 32,
-        "offset": 987,
+        "offset": 986,
       },
       "start": {
         "_bufferIndex": 4,
@@ -14453,7 +14463,8 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
         "line": 32,
         "offset": 984,
       },
-      "type": "commentLinePrefix",
+      "type": "commentOpener",
+      "value": "//",
     },
   ],
   [
@@ -14545,6 +14556,27 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
     },
   ],
   [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 58,
+        "column": 7,
+        "line": 32,
+        "offset": 986,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 58,
+        "column": 5,
+        "line": 32,
+        "offset": 984,
+      },
+      "type": "commentOpener",
+      "value": "//",
+    },
+  ],
+  [
     "enter",
     {
       "end": {
@@ -14584,26 +14616,6 @@ exports[`e2e:comments > should respect \`parser.constructs.settings.modes.block\
       },
       "type": "commentPadding",
       "value": " ",
-    },
-  ],
-  [
-    "exit",
-    {
-      "end": {
-        "_bufferIndex": 7,
-        "_index": 58,
-        "column": 8,
-        "line": 32,
-        "offset": 987,
-      },
-      "start": {
-        "_bufferIndex": 4,
-        "_index": 58,
-        "column": 5,
-        "line": 32,
-        "offset": 984,
-      },
-      "type": "commentLinePrefix",
     },
   ],
   [

@@ -1,3 +1,9 @@
+## [1.0.0-alpha.6](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2026-09-22)
+
+### :package: Build
+
+- [[`33f5804`](https://github.com/flex-development/docmark-extension-js/commit/33f5804037961e4349e4d17aa501e22363c7a4ec)] **deps:** bump the docmark group with 2 updates
+
 ## [1.0.0-alpha.5](https://github.com/flex-development/docmark-extension-js/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2026-09-22)
 
 ### :package: Build
@@ -63,6 +69,7 @@
 ### :house_with_garden: Housekeeping
 
 - [[`70e6f98`](https://github.com/flex-development/docmark-extension-js/commit/70e6f9885ebea1fa25b630e4c6ecb141b296d453)] initial commit
+
 
 
 
